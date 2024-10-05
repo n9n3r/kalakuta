@@ -68,7 +68,7 @@ const menu = [
       title: 'quarantine buddy',
       category: 'drinks',
       price: 16.99,
-      img: './img/2.jpeg',
+      img: 'https://www.pexels.com/photo/fries-and-burger-on-plate-70497/',
       desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
   ];
