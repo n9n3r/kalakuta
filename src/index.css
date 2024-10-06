@@ -130,7 +130,7 @@ Variables
   }
   /*  global classes */
   
-  /* section */
+  /* section
   .section {
     width: 90vw;
     margin: 0 auto;
@@ -142,7 +142,7 @@ Variables
       width: 95vw;
     }
   }
-  
+   */
   /*
   =============== 
   Menu
@@ -163,11 +163,11 @@ Variables
     margin-left: auto;
     margin-right: auto;
   }
-  .btn-container {
+  /* .btn-container {
     margin-bottom: 4rem;
     display: flex;
     justify-content: center;
-  }
+  } */
   .filter-btn {
     background: transparent;
     border-color: transparent;
@@ -185,14 +185,14 @@ Variables
     background: var(--clr-gold);
     color: var(--clr-white);
   }
-  .section-center {
+  /* .section-center {
     width: 90vw;
     margin: 0 auto;
     max-width: 1170px;
     display: grid;
     gap: 3rem 2rem;
     justify-items: center;
-  }
+  } */
   .menu-item {
     display: grid;
     gap: 1rem 2rem;

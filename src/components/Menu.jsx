@@ -1,12 +1,12 @@
 
 const Menu = ({items}) => {
   return (
-    <div className='section-center'>
+    <div className='min-h-screen flex flex-wrap justify-around lg:px-32 px-5'>
       {items.map((menuItem) => {
         const {id,title,img,price,desc} = menuItem;
 
         return <article key={id} className='menu-item'>
-          <img src={img} alt={title} className='photo' />
+          {/* <img src={img} alt={title} className='photo' /> */}
           <div className='item-info'>
             <header>
               <h4>{title}</h4>

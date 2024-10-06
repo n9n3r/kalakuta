@@ -1,7 +1,7 @@
 
 
 const Categories = ({categories,filterItems}) => {
-  return <div className='btn-container'>
+  return <div className='flex flex-wrap '>
     {categories.map((category,index) => {
       return <button 
         type='button' 

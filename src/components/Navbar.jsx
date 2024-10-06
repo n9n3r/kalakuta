@@ -74,7 +74,7 @@ const Navbar = () => {
             Menu
           </Link>
           <Link
-            to="review"
+            to="lodge"
             spy={true}
             smooth={true}
             duration={500}

@@ -20,12 +20,14 @@ function App() {
 
   return <main>
     <section className='menu section'>
-      <div className='title'>
+      <div className='text-4xl font-semibold text-center lg:pt-8 pt-24 pb-10'>
         <h2>our menu</h2>
         <div className='underline'></div>
       </div>
-      <Categories categories={categories} filterItems={filterItems} />
-      <Menu items={menuItems} />
+      <div className='flex flex-wrap gap-8 justify-center'>
+        <Categories categories={categories} filterItems={filterItems} />
+        <Menu items={menuItems} />
+      </div>
     </section>
   </main>;
 }
